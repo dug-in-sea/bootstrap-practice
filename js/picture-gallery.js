@@ -38,7 +38,7 @@ $(document).ready(function() {
 //点击底部的返回顶部按钮,窗口平滑回滚到顶部
 $('#footer button').click(
 	function() {
-		$('html').animate({
+		$('html,body').animate({
 			"scrollTop": 0
 		}, 200, "linear");
 	}
